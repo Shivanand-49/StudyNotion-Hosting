@@ -1,5 +1,4 @@
 # StudyNotion Edtech Project
-
 ### StudyNotion Edtech Project Overview
 
 1. Introduction:
@@ -9,15 +8,15 @@
 
 2. Features:
 
-    a. User Authentication:
+   a. User Authentication:
    - Secure user authentication and authorization system.
    - User roles: Student,Instructor
    
-    b. Course Management:
+   b. Course Management:
    - Teachers can create, edit, and manage courses.
    - Upload course materials, videos.
 
-    c. Student Dashboard:
+   c. Student Dashboard:
    - Personalized dashboard for students.
    - View enrolled courses, progress, and watch the videos lectures.
 
@@ -32,17 +31,17 @@
    - Redux for state management.
    - HTML5, CSS3, and JavaScript for frontend development.
 
-  b. Backend:
+   b. Backend:
    - Node.js for server-side development.
    - Express.js for building RESTful APIs.
    - MongoDB for database storage.
 
-  c. Authentication:
+   c. Authentication:
    - JSON Web Tokens (JWT) for secure authentication.
 
-  d. Real-Time Features:
+   d. Real-Time Features:
    - WebSockets for real-time chat and notifications.
-
+   - 
 4. Database Design:-
    - MongoDB for storing user data, course content, and other relevant information.
    - Collections for users, courses, assignments, discussions, etc.
