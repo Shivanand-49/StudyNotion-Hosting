@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/Logo/Logo-Full-Light.png";
 
 // Icons
-import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaGoogle, FaTwitter, FaYoutube, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
@@ -47,12 +47,24 @@ const Footer = () => {
                 })}
               </div>
               <div className="flex gap-3 text-lg">
-                <FaFacebook />
-                <FaGoogle />
-                <FaTwitter />
-                <FaYoutube />
+              <a className="cursor-pointer hover:text-richblack-50 hover:scale-150 " href="https://twitter.com/Shivanand_17">
+                  <FaTwitter />
+                </a>
+
+                <a className=" cursor-pointer hover:text-richblack-50 hover:scale-150" href="https://github.com/Shivanand-17">
+                  <FaGithub />
+                </a>
+
+                <a className="cursor-pointer hover:text-richblack-50 hover:scale-150" href="https://www.linkedin.com/in/shivanand17/">
+                  <FaLinkedin />
+                </a>
+
+                <a className="cursor-pointer hover:text-richblack-50 hover:scale-150" href="https://google.com">
+                  <FaGoogle/>
+                </a>
+
               </div>
-              <div></div>
+              
             </div>
 
             <div className="w-[48%] lg:w-[30%] mb-7 lg:pl-0">
