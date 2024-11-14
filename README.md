@@ -1,3 +1,5 @@
+Project Link: https://studynotion-by-shiva-mocha.vercel.app/
+
 # StudyNotion Edtech Project
 ### StudyNotion Edtech Project Overview
 
